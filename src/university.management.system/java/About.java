@@ -2,7 +2,11 @@ package university.management.system;
 
 import javax.swing.*;
 import java.awt.*;
-
+/**
+ * The About class represents a simple GUI window that provides information
+ * about the University Management System application. It displays the
+ * application name, developer details, and contact information.
+ */
 public class About extends JFrame {
 
     About() {
