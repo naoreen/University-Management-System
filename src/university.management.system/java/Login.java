@@ -5,11 +5,16 @@ import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
 
+/**
+ * The Login class represents the login screen for the University Management System.
+ * It provides a graphical user interface (GUI) for users to input their username
+ * and password, and attempts to authenticate them using a database.
+ */
 public class Login extends JFrame implements ActionListener{
 
     JButton login, cancel;
     JTextField tfusername, tfpassword;
-    
+    // Declare buttons and text fields for the login form
     Login () {
         
         getContentPane().setBackground(Color.WHITE);
